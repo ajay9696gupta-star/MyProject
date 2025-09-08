@@ -1,27 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Expain Git & Github</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Footer Example</title>
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; margin: 40px; }
-    button { padding: 8px 14px; border: none; border-radius: 4px;
-             background: #007bff; color: #fff; cursor: pointer; }
-    button:hover { background: #0056b3; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: auto;
+    }
+    footer .footer-links {
+      margin: 10px 0;
+    }
+    footer .footer-links a {
+      color: #00bcd4;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    footer .footer-links a:hover {
+      text-decoration: underline;
+    }
+    footer p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
   </style>
 </head>
 <body>
-  <h1>Hello World 🌍</h1>
-  <p>This is a short HTML example.</p>
-  <p> Hi 
-  We are learning <b> Git, Github & Gitlab </b>
-  </p>
-  <button>Click Me</button>
-  
-    <h3>Unordered List:</h3>
-  <ul>
-    <li>Apple</li>
-    <li>Banana</li>
-    <li>Orange</li>
-  </ul>
+
+  <!-- Page Content -->
+  <div style="flex:1; padding:20px;">
+    <h2>Welcome to My Website</h2>
+    <p>This is a demo page with a footer at the bottom.</p>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Contact</a>
+    </div>
+    <p>&copy; 2025 My Website. All Rights Reserved.</p>
+  </footer>
+
 </body>
 </html>
